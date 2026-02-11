@@ -1,0 +1,10 @@
+GEN_MODEL=openai:gpt-4.1
+TEST_MODEL=meta-llama/Meta-Llama-3-8B-Instruct
+JUDGE_MODEL=openai:o4-mini
+prompts_per_rule=8
+max_rule_tokens=512
+max_prompt_tokens=256
+max_examples=100
+max_answer_tokens=768
+max_judge_tokens=512
+seed=1234
