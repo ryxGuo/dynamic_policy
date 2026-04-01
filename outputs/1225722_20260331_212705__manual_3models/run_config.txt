@@ -1,0 +1,9 @@
+MODE=manual_eval_4models
+MANUAL_RULES_CSV=/scratch/afield6/yren46/privacy_policy/outputs/policy_rules_manual.csv
+MANUAL_PROMPTS_CSV=/scratch/afield6/yren46/privacy_policy/outputs/policy_prompts_manual_100.csv
+JUDGE_MODEL=openai:o4-mini
+TEST_MODELS=Qwen/Qwen3-8B; meta-llama/Meta-Llama-3-8B-Instruct; deepseek-ai/DeepSeek-R1-Distill-Qwen-7B; 
+max_examples=500
+max_answer_tokens=768
+max_judge_tokens=384
+seed=1234
